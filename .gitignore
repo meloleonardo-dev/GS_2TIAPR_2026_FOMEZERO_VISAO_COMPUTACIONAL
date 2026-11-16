@@ -1,0 +1,18 @@
+# ambiente e cache
+.venv/
+__pycache__/
+*.pyc
+.gradio/
+flagged/
+
+# segredos (nenhum é usado, mas por garantia)
+.env
+.env.*
+
+# pesos: só o modelo do app entra no repositório
+modelo/*.pt
+!modelo/efficientnet_b0.pt
+
+# a base de dados nunca entra (baixar pelo DOI)
+dados_brutos/
+Processed Data/

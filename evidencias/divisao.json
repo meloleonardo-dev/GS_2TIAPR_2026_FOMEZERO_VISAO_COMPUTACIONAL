@@ -1,0 +1,121 @@
+{
+ "base": "AgriFreshNET (Mendeley Data, DOI 10.17632/42m5tb7yv9.1, CC BY 4.0)",
+ "semente": 42,
+ "metodo": "StratifiedGroupKFold(n_splits=20): dobras 0-2 teste, 3-5 validação, 6-19 treino",
+ "arquivos_lidos": 14160,
+ "excluidos_rotulo_conflitante": {
+  "arquivos": 68,
+  "fotos_originais": [
+   "Fresh Orange(1-9)/IMG-20251122-WA0000.jpg",
+   "Fresh Orange(1-9)/IMG-20251122-WA0001.jpg",
+   "Fresh Orange(1-9)/IMG-20251122-WA0002.jpg",
+   "Fresh Orange(1-9)/IMG-20251122-WA0003.jpg",
+   "Fresh Orange(1-9)/IMG-20251122-WA0004.jpg",
+   "Fresh Orange(1-9)/IMG-20251122-WA0005.jpg",
+   "Fresh Orange(1-9)/IMG-20251122-WA0006.jpg",
+   "Fresh Orange(1-9)/IMG-20251122-WA0007.jpg",
+   "Fresh Orange(1-9)/IMG-20251122-WA0008.jpg",
+   "Fresh Orange(1-9)/IMG-20251122-WA0009.jpg",
+   "Fresh Orange(1-9)/IMG-20251122-WA0010.jpg",
+   "Fresh Orange(1-9)/IMG-20251122-WA0011.jpg",
+   "Fresh Orange(1-9)/IMG-20251122-WA0012.jpg",
+   "Fresh Orange(1-9)/IMG-20251122-WA0013.jpg",
+   "Fresh Orange(1-9)/IMG-20251122-WA0014.jpg",
+   "Fresh Orange(1-9)/IMG-20251122-WA0015.jpg",
+   "Fresh Orange(1-9)/IMG_20251116_220609831_HDR.jpg",
+   "Semi fresh Orange(9-20)/IMG-20251122-WA0000.jpg",
+   "Semi fresh Orange(9-20)/IMG-20251122-WA0001.jpg",
+   "Semi fresh Orange(9-20)/IMG-20251122-WA0002.jpg",
+   "Semi fresh Orange(9-20)/IMG-20251122-WA0003.jpg",
+   "Semi fresh Orange(9-20)/IMG-20251122-WA0004.jpg",
+   "Semi fresh Orange(9-20)/IMG-20251122-WA0005.jpg",
+   "Semi fresh Orange(9-20)/IMG-20251122-WA0006.jpg",
+   "Semi fresh Orange(9-20)/IMG-20251122-WA0007.jpg",
+   "Semi fresh Orange(9-20)/IMG-20251122-WA0008.jpg",
+   "Semi fresh Orange(9-20)/IMG-20251122-WA0009.jpg",
+   "Semi fresh Orange(9-20)/IMG-20251122-WA0010.jpg",
+   "Semi fresh Orange(9-20)/IMG-20251122-WA0011.jpg",
+   "Semi fresh Orange(9-20)/IMG-20251122-WA0012.jpg",
+   "Semi fresh Orange(9-20)/IMG-20251122-WA0013.jpg",
+   "Semi fresh Orange(9-20)/IMG-20251122-WA0014.jpg",
+   "Semi fresh Orange(9-20)/IMG-20251122-WA0015.jpg",
+   "Semi fresh Orange(9-20)/IMG_20251116_220609831_HDR.jpg"
+  ]
+ },
+ "unioes_por_foto_identica": 0,
+ "grupos_de_origem": 1616,
+ "grupos_por_conjunto": {
+  "treino": 1125,
+  "validacao": 244,
+  "teste": 247
+ },
+ "grupos_compartilhados_entre_conjuntos": {
+  "treino∩validacao": 0,
+  "treino∩teste": 0,
+  "validacao∩teste": 0
+ },
+ "originais_compartilhadas_entre_conjuntos": 0,
+ "conjuntos": {
+  "treino": {
+   "n_arquivos": 9788,
+   "n_originais": 3615,
+   "n_aug": 6173,
+   "por_estagio_originais": {
+    "Fresh": 1371,
+    "Rotten": 1130,
+    "Semi-Fresh": 1114
+   },
+   "por_produto_originais": {
+    "banana": 476,
+    "bittermelon": 368,
+    "cucumber": 272,
+    "eggplant": 446,
+    "orange": 525,
+    "papaya": 342,
+    "pineapple": 389,
+    "tomato": 797
+   }
+  },
+  "validacao": {
+   "n_arquivos": 782,
+   "n_originais": 782,
+   "n_aug": 0,
+   "por_estagio_originais": {
+    "Fresh": 281,
+    "Rotten": 213,
+    "Semi-Fresh": 288
+   },
+   "por_produto_originais": {
+    "banana": 99,
+    "bittermelon": 76,
+    "cucumber": 101,
+    "eggplant": 97,
+    "orange": 114,
+    "papaya": 47,
+    "pineapple": 82,
+    "tomato": 166
+   }
+  },
+  "teste": {
+   "n_arquivos": 786,
+   "n_originais": 786,
+   "n_aug": 0,
+   "por_estagio_originais": {
+    "Fresh": 265,
+    "Rotten": 280,
+    "Semi-Fresh": 241
+   },
+   "por_produto_originais": {
+    "banana": 102,
+    "bittermelon": 77,
+    "cucumber": 37,
+    "eggplant": 100,
+    "orange": 112,
+    "papaya": 110,
+    "pineapple": 81,
+    "tomato": 167
+   }
+  }
+ },
+ "aug_sem_original": 0
+}

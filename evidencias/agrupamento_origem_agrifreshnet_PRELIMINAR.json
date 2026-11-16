@@ -1,0 +1,80 @@
+{
+ "total": 14160,
+ "originais": 5217,
+ "aumentadas": 8943,
+ "originais_por_estagio": {
+  "Fresh": 1934,
+  "Rotten": 1623,
+  "Semi-Fresh": 1660
+ },
+ "produtos": [
+  "banana",
+  "bittermelon",
+  "cucumber",
+  "eggplant",
+  "orange",
+  "papaya",
+  "pineapple",
+  "tomato"
+ ],
+ "grupos_origem": 1632,
+ "grupos_por_estagio": {
+  "Fresh": 667,
+  "Semi-Fresh": 460,
+  "Rotten": 578
+ },
+ "maior_grupo_originais": 38,
+ "grupos_com_1_original": 947,
+ "grupos_com_mais_de_um_rotulo": 98,
+ "exemplos_mais_de_um_rotulo": [
+  "S:20251121_1444",
+  "S:20251121_1438",
+  "S:20260116_0259",
+  "S:20251027_1712",
+  "S:20260120_0048",
+  "S:20260116_0302",
+  "S:20260116_0300",
+  "S:20260114_0054",
+  "S:20251118_1611",
+  "S:20251029_0954"
+ ],
+ "colisoes_de_nome_entre_pastas": 28,
+ "colisoes_que_sao_a_mesma_foto": 16,
+ "exemplos_mesma_foto": [
+  [
+   "IMG-20251122-WA0000.jpg",
+   [
+    "Fresh Orange(1-9)",
+    "Semi fresh Orange(9-20)"
+   ]
+  ],
+  [
+   "IMG-20251122-WA0001.jpg",
+   [
+    "Fresh Orange(1-9)",
+    "Semi fresh Orange(9-20)"
+   ]
+  ],
+  [
+   "IMG-20251122-WA0002.jpg",
+   [
+    "Fresh Orange(1-9)",
+    "Semi fresh Orange(9-20)"
+   ]
+  ],
+  [
+   "IMG-20251122-WA0003.jpg",
+   [
+    "Fresh Orange(1-9)",
+    "Semi fresh Orange(9-20)"
+   ]
+  ],
+  [
+   "IMG-20251122-WA0004.jpg",
+   [
+    "Fresh Orange(1-9)",
+    "Semi fresh Orange(9-20)"
+   ]
+  ]
+ ]
+}

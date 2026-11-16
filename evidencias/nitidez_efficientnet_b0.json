@@ -1,0 +1,165 @@
+{
+ "modelo": "efficientnet_b0",
+ "tau": 0.5,
+ "metrica": "variância do laplaciano 4-vizinhos ÷ brilho médio², cinza 224x224 (comum.nitidez)",
+ "variantes_descartadas_na_validacao": "nitidez_variantes_validacao.json",
+ "calibracao": {
+  "conjunto": "validação (só originais)",
+  "n": 782,
+  "percentil": 2,
+  "limiar_nitidez": 0.0009446,
+  "recusadas_por_conjunto": {
+   "original": 0.0205,
+   "desfoque_r2": 0.6611,
+   "desfoque_r3": 0.899
+  },
+  "recusadas_originais_por_estagio": {
+   "Fresh": {
+    "n": 281,
+    "taxa": 0.0427
+   },
+   "Semi-Fresh": {
+    "n": 288,
+    "taxa": 0.0
+   },
+   "Rotten": {
+    "n": 213,
+    "taxa": 0.0188
+   }
+  },
+  "mediana": {
+   "original": 0.005559,
+   "desfoque_r2": 0.0006612,
+   "desfoque_r3": 0.0002636
+  }
+ },
+ "teste": {
+  "original": {
+   "n": 786,
+   "f1_macro_todas": 0.9397,
+   "recusadas_nitidez": 9,
+   "recusadas_nitidez_por_estagio": {
+    "Fresh": 4,
+    "Semi-Fresh": 5,
+    "Rotten": 0
+   },
+   "sem_salvaguarda": {
+    "cobertura": 0.9898,
+    "acuracia_sugeridas": 0.9447,
+    "rotten_sugerido_sem_sinais": 0
+   },
+   "com_salvaguarda": {
+    "cobertura": 0.9784,
+    "acuracia_sugeridas": 0.9441,
+    "f1_macro_sugeridas": 0.9419,
+    "rotten_sugerido_sem_sinais": 0
+   }
+  },
+  "escurecer_x0.6": {
+   "n": 786,
+   "f1_macro_todas": 0.9341,
+   "recusadas_nitidez": 6,
+   "recusadas_nitidez_por_estagio": {
+    "Fresh": 2,
+    "Semi-Fresh": 4,
+    "Rotten": 0
+   },
+   "sem_salvaguarda": {
+    "cobertura": 0.9835,
+    "acuracia_sugeridas": 0.9457,
+    "rotten_sugerido_sem_sinais": 0
+   },
+   "com_salvaguarda": {
+    "cobertura": 0.9758,
+    "acuracia_sugeridas": 0.9452,
+    "f1_macro_sugeridas": 0.9428,
+    "rotten_sugerido_sem_sinais": 0
+   }
+  },
+  "clarear_x1.4": {
+   "n": 786,
+   "f1_macro_todas": 0.9204,
+   "recusadas_nitidez": 22,
+   "recusadas_nitidez_por_estagio": {
+    "Fresh": 14,
+    "Semi-Fresh": 7,
+    "Rotten": 1
+   },
+   "sem_salvaguarda": {
+    "cobertura": 0.9809,
+    "acuracia_sugeridas": 0.9326,
+    "rotten_sugerido_sem_sinais": 0
+   },
+   "com_salvaguarda": {
+    "cobertura": 0.9529,
+    "acuracia_sugeridas": 0.9319,
+    "f1_macro_sugeridas": 0.9293,
+    "rotten_sugerido_sem_sinais": 0
+   }
+  },
+  "sombra_sintetica": {
+   "n": 786,
+   "f1_macro_todas": 0.9238,
+   "recusadas_nitidez": 11,
+   "recusadas_nitidez_por_estagio": {
+    "Fresh": 7,
+    "Semi-Fresh": 4,
+    "Rotten": 0
+   },
+   "sem_salvaguarda": {
+    "cobertura": 0.986,
+    "acuracia_sugeridas": 0.9316,
+    "rotten_sugerido_sem_sinais": 0
+   },
+   "com_salvaguarda": {
+    "cobertura": 0.972,
+    "acuracia_sugeridas": 0.9319,
+    "f1_macro_sugeridas": 0.9291,
+    "rotten_sugerido_sem_sinais": 0
+   }
+  },
+  "obstrucao_25pct": {
+   "n": 786,
+   "f1_macro_todas": 0.722,
+   "recusadas_nitidez": 4,
+   "recusadas_nitidez_por_estagio": {
+    "Fresh": 2,
+    "Semi-Fresh": 2,
+    "Rotten": 0
+   },
+   "sem_salvaguarda": {
+    "cobertura": 0.7748,
+    "acuracia_sugeridas": 0.8128,
+    "rotten_sugerido_sem_sinais": 11
+   },
+   "com_salvaguarda": {
+    "cobertura": 0.7723,
+    "acuracia_sugeridas": 0.8138,
+    "f1_macro_sugeridas": 0.7995,
+    "rotten_sugerido_sem_sinais": 11
+   }
+  },
+  "desfoque_r3": {
+   "n": 786,
+   "f1_macro_todas": 0.8518,
+   "recusadas_nitidez": 709,
+   "recusadas_nitidez_por_estagio": {
+    "Fresh": 233,
+    "Semi-Fresh": 223,
+    "Rotten": 253
+   },
+   "sem_salvaguarda": {
+    "cobertura": 0.9631,
+    "acuracia_sugeridas": 0.8705,
+    "rotten_sugerido_sem_sinais": 29
+   },
+   "com_salvaguarda": {
+    "cobertura": 0.0903,
+    "acuracia_sugeridas": 0.9155,
+    "f1_macro_sugeridas": 0.8968,
+    "rotten_sugerido_sem_sinais": 0
+   }
+  }
+ },
+ "nota": "\"cobertura\" = fração das fotos que recebem sugestão de condição; as demais viram \"inconclusivo\". Perturbações sintéticas; fora das métricas oficiais do teste original."
+}

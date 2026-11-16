@@ -1,0 +1,40 @@
+{
+ "conjunto": "validação (só originais + perturbações sintéticas)",
+ "n": 782,
+ "percentil": 2,
+ "taxa_recusada": {
+  "bruta": {
+   "original": 0.0205,
+   "escurecer": 0.1893,
+   "clarear": 0.0013,
+   "sombra": 0.1202,
+   "desfoque_r2": 0.6841,
+   "desfoque_r3": 0.9105
+  },
+  "div_var": {
+   "original": 0.0205,
+   "escurecer": 0.0115,
+   "clarear": 0.0192,
+   "sombra": 0.1982,
+   "desfoque_r2": 0.7238,
+   "desfoque_r3": 0.9655
+  },
+  "div_media2": {
+   "original": 0.0205,
+   "escurecer": 0.0038,
+   "clarear": 0.0448,
+   "sombra": 0.0153,
+   "desfoque_r2": 0.6611,
+   "desfoque_r3": 0.899
+  },
+  "div_p95p5_2": {
+   "original": 0.0205,
+   "escurecer": 0.0141,
+   "clarear": 0.0115,
+   "sombra": 0.1893,
+   "desfoque_r2": 0.7583,
+   "desfoque_r3": 0.9668
+  }
+ },
+ "escolhida": "div_media2"
+}

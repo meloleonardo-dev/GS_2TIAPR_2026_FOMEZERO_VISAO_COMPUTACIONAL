@@ -1,0 +1,56 @@
+{
+ "modelo": "efficientnet_b0",
+ "conjunto": "teste (só originais) com perturbações sintéticas",
+ "tau": 0.5,
+ "resultados": {
+  "original": {
+   "n": 786,
+   "acuracia": 0.9415,
+   "f1_macro": 0.9397,
+   "cobertura_tau": 0.9898,
+   "rotten_previsto_fresh": 0,
+   "delta_f1_vs_original": 0.0
+  },
+  "escurecer_x0.6": {
+   "n": 786,
+   "acuracia": 0.9364,
+   "f1_macro": 0.9341,
+   "cobertura_tau": 0.9835,
+   "rotten_previsto_fresh": 0,
+   "delta_f1_vs_original": -0.0056
+  },
+  "clarear_x1.4": {
+   "n": 786,
+   "acuracia": 0.9224,
+   "f1_macro": 0.9204,
+   "cobertura_tau": 0.9809,
+   "rotten_previsto_fresh": 1,
+   "delta_f1_vs_original": -0.0193
+  },
+  "sombra_sintetica": {
+   "n": 786,
+   "acuracia": 0.9262,
+   "f1_macro": 0.9238,
+   "cobertura_tau": 0.986,
+   "rotten_previsto_fresh": 0,
+   "delta_f1_vs_original": -0.0159
+  },
+  "obstrucao_25pct": {
+   "n": 786,
+   "acuracia": 0.7328,
+   "f1_macro": 0.722,
+   "cobertura_tau": 0.7748,
+   "rotten_previsto_fresh": 25,
+   "delta_f1_vs_original": -0.2177
+  },
+  "desfoque_r3": {
+   "n": 786,
+   "acuracia": 0.8524,
+   "f1_macro": 0.8518,
+   "cobertura_tau": 0.9631,
+   "rotten_previsto_fresh": 35,
+   "delta_f1_vs_original": -0.0879
+  }
+ },
+ "fotos_proprias_FORA_DAS_METRICAS_OFICIAIS": null
+}

@@ -1,0 +1,113 @@
+{
+ "modelo": "efficientnet_b0",
+ "classes": [
+  "banana|Fresh",
+  "banana|Semi-Fresh",
+  "banana|Rotten",
+  "bittermelon|Fresh",
+  "bittermelon|Semi-Fresh",
+  "bittermelon|Rotten",
+  "cucumber|Fresh",
+  "cucumber|Semi-Fresh",
+  "cucumber|Rotten",
+  "eggplant|Fresh",
+  "eggplant|Semi-Fresh",
+  "eggplant|Rotten",
+  "orange|Fresh",
+  "orange|Semi-Fresh",
+  "orange|Rotten",
+  "papaya|Fresh",
+  "papaya|Semi-Fresh",
+  "papaya|Rotten",
+  "pineapple|Fresh",
+  "pineapple|Semi-Fresh",
+  "pineapple|Rotten",
+  "tomato|Fresh",
+  "tomato|Semi-Fresh",
+  "tomato|Rotten"
+ ],
+ "tamanho": 224,
+ "media": [
+  0.485,
+  0.456,
+  0.406
+ ],
+ "desvio": [
+  0.229,
+  0.224,
+  0.225
+ ],
+ "n_treino": 9788,
+ "n_validacao": 782,
+ "epocas_max": 10,
+ "lote": 32,
+ "lr": 0.0003,
+ "criterio": "F1 macro da condição na validação",
+ "melhor_f1_val": 0.9439,
+ "melhor_epoca": 4,
+ "tempo_total_s": 355.4,
+ "dispositivo": "cuda",
+ "gpu": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+ "torch": "2.14.1+cu130",
+ "historico": [
+  {
+   "epoca": 1,
+   "perda_treino": 1.0818,
+   "perda_val": 0.3151,
+   "f1_macro_condicao_val": 0.928,
+   "acuracia_24_val": 0.9246,
+   "segundos": 99.7,
+   "salvo": true
+  },
+  {
+   "epoca": 2,
+   "perda_treino": 0.7519,
+   "perda_val": 0.3498,
+   "f1_macro_condicao_val": 0.9173,
+   "acuracia_24_val": 0.913,
+   "segundos": 39.8
+  },
+  {
+   "epoca": 3,
+   "perda_treino": 0.6995,
+   "perda_val": 0.2749,
+   "f1_macro_condicao_val": 0.9393,
+   "acuracia_24_val": 0.9335,
+   "segundos": 40.1,
+   "salvo": true
+  },
+  {
+   "epoca": 4,
+   "perda_treino": 0.6822,
+   "perda_val": 0.2516,
+   "f1_macro_condicao_val": 0.9439,
+   "acuracia_24_val": 0.9425,
+   "segundos": 40.5,
+   "salvo": true
+  },
+  {
+   "epoca": 5,
+   "perda_treino": 0.6602,
+   "perda_val": 0.3167,
+   "f1_macro_condicao_val": 0.9364,
+   "acuracia_24_val": 0.9322,
+   "segundos": 42.9
+  },
+  {
+   "epoca": 6,
+   "perda_treino": 0.6492,
+   "perda_val": 0.3142,
+   "f1_macro_condicao_val": 0.9348,
+   "acuracia_24_val": 0.9309,
+   "segundos": 46.7
+  },
+  {
+   "epoca": 7,
+   "perda_treino": 0.643,
+   "perda_val": 0.2835,
+   "f1_macro_condicao_val": 0.9393,
+   "acuracia_24_val": 0.9348,
+   "segundos": 45.3
+  }
+ ]
+}

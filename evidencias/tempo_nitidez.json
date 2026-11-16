@@ -1,0 +1,10 @@
+{
+ "funcao": "comum.nitidez",
+ "dispositivo": "CPU (i5-13420H)",
+ "entrada": "512x512 da base -> cinza 224x224",
+ "n": 100,
+ "aquecimento": 20,
+ "media_ms": 1.052,
+ "p50_ms": 0.948,
+ "p95_ms": 1.661
+}

@@ -1,0 +1,108 @@
+{
+ "modelo": "efficientnet_b0",
+ "conjunto": "teste (só originais)",
+ "n_teste": 786,
+ "camada": "features[-1]",
+ "uso": "qualitativo; não é métrica",
+ "exemplos": [
+  {
+   "tipo": "ACERTO",
+   "caminho": "Fresh Orange(1-9)/IMG_20251105_102315907_HDR_AE.jpg",
+   "produto": "laranja",
+   "verdadeiro": "Fresh",
+   "previsto": "Fresh",
+   "confianca": 0.9912,
+   "classe_24_explicada": "orange|Fresh"
+  },
+  {
+   "tipo": "ACERTO",
+   "caminho": "Semi Fresh Cucumber(6-12)/IMG_20251117_160438.jpg",
+   "produto": "pepino",
+   "verdadeiro": "Semi-Fresh",
+   "previsto": "Semi-Fresh",
+   "confianca": 0.9898,
+   "classe_24_explicada": "cucumber|Semi-Fresh"
+  },
+  {
+   "tipo": "ACERTO",
+   "caminho": "Rotten banana(7-13)/IMG_20251201_132554148_HDR.jpg",
+   "produto": "banana",
+   "verdadeiro": "Rotten",
+   "previsto": "Rotten",
+   "confianca": 0.99,
+   "classe_24_explicada": "banana|Rotten"
+  },
+  {
+   "tipo": "ERRO",
+   "caminho": "Semi fresh Tomato(10-24)/IMG_20251112_113613775_HDR_AE.jpg",
+   "produto": "tomate",
+   "verdadeiro": "Semi-Fresh",
+   "previsto": "Fresh",
+   "confianca": 0.9846,
+   "classe_24_explicada": "tomato|Fresh"
+  },
+  {
+   "tipo": "ERRO",
+   "caminho": "Semi fresh Tomato(10-24)/IMG_20251117_140531246_HDR_AE.jpg",
+   "produto": "tomate",
+   "verdadeiro": "Semi-Fresh",
+   "previsto": "Fresh",
+   "confianca": 0.9771,
+   "classe_24_explicada": "tomato|Fresh"
+  },
+  {
+   "tipo": "ERRO",
+   "caminho": "Fresh eggplant(1-4)/IMG_20251120_202305211_HDR.jpg",
+   "produto": "berinjela",
+   "verdadeiro": "Fresh",
+   "previsto": "Semi-Fresh",
+   "confianca": 0.9692,
+   "classe_24_explicada": "eggplant|Semi-Fresh"
+  },
+  {
+   "tipo": "ERRO",
+   "caminho": "Rotten eggplant(8-15)/IMG_20251130_180949028_HDR.jpg",
+   "produto": "berinjela",
+   "verdadeiro": "Rotten",
+   "previsto": "Semi-Fresh",
+   "confianca": 0.937,
+   "classe_24_explicada": "eggplant|Semi-Fresh"
+  },
+  {
+   "tipo": "ERRO",
+   "caminho": "Rotten eggplant(8-15)/IMG_20251130_180956091_HDR.jpg",
+   "produto": "berinjela",
+   "verdadeiro": "Rotten",
+   "previsto": "Semi-Fresh",
+   "confianca": 0.9219,
+   "classe_24_explicada": "eggplant|Semi-Fresh"
+  },
+  {
+   "tipo": "ERRO",
+   "caminho": "Fresh eggplant(1-4)/IMG_20251118_164733085_HDR.jpg",
+   "produto": "berinjela",
+   "verdadeiro": "Fresh",
+   "previsto": "Semi-Fresh",
+   "confianca": 0.8884,
+   "classe_24_explicada": "eggplant|Semi-Fresh"
+  },
+  {
+   "tipo": "ERRO",
+   "caminho": "Semi fresh banana(4-7)/IMG_20251108_121133334_HDR_AE.jpg",
+   "produto": "banana",
+   "verdadeiro": "Semi-Fresh",
+   "previsto": "Rotten",
+   "confianca": 0.8266,
+   "classe_24_explicada": "banana|Rotten"
+  },
+  {
+   "tipo": "ERRO",
+   "caminho": "Semi fresh Tomato(10-24)/IMG_20251123_222214912_HDR.jpg",
+   "produto": "tomate",
+   "verdadeiro": "Semi-Fresh",
+   "previsto": "Rotten",
+   "confianca": 0.7785,
+   "classe_24_explicada": "tomato|Rotten"
+  }
+ ]
+}

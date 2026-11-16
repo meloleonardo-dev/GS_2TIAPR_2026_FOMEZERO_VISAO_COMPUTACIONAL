@@ -1,0 +1,276 @@
+{
+ "raiz": "dados_brutos/agrifreshnet/Processed Data (caminho local, fora do repositório)",
+ "total_imagens": 14160,
+ "extensoes": {
+  ".jpg": 13890,
+  ".jpeg": 270
+ },
+ "por_pasta_folha": {
+  "Fresh Banana(1-4)": 590,
+  "Fresh Bittermelon(1-3)": 590,
+  "Fresh Cucumber(1-6)": 590,
+  "Fresh Orange(1-9)": 590,
+  "Fresh Papaya(1-4)": 590,
+  "Fresh Tomato(1-10)": 590,
+  "Fresh eggplant(1-4)": 590,
+  "Fresh pineapple(1-15)": 590,
+  "Rotten Bittermelon(5-8)": 590,
+  "Rotten Cucumber(12-20)": 590,
+  "Rotten Orange(20-35)": 590,
+  "Rotten Papaya(7-12)": 590,
+  "Rotten Pineapple(25-35)": 590,
+  "Rotten Tomato(24-35)": 590,
+  "Rotten banana(7-13)": 590,
+  "Rotten eggplant(8-15)": 590,
+  "Semi Fresh Bittermelon ( 3-5)": 590,
+  "Semi Fresh Cucumber(6-12)": 590,
+  "Semi Fresh Papaya(4-7)": 590,
+  "Semi fresh Orange(9-20)": 590,
+  "Semi fresh Pineapple (15-25)": 590,
+  "Semi fresh Tomato(10-24)": 590,
+  "Semi fresh banana(4-7)": 590,
+  "Semi_Fresh eggplant(4-8)": 590
+ },
+ "resolucoes_amostra_1_em_25": {
+  "512x512": 567
+ },
+ "ilegiveis": [],
+ "n_ilegiveis": 0,
+ "padroes_de_nome_sugestivos": {
+  "aug": 8943,
+  "(n)": 263,
+  "_20260123_013740": 27,
+  "_20251124_021829": 22,
+  "_20260202_032554": 21,
+  "_20251031_164038": 21,
+  "_20251104_131713223": 20,
+  "_20260122_003111": 18,
+  "_20251031_164000": 18,
+  "_20251124_022509": 17,
+  "_20251202_015425": 16,
+  "_20251123_012338": 16,
+  "_20251202_015533": 16,
+  "_20251031_164035": 16,
+  "_20260214_025210": 16,
+  "_20251124_022533": 16,
+  "_20260123_013840": 15,
+  "_20251123_012402": 15,
+  "_20251202_015510": 15,
+  "_20251121_080719": 15
+ },
+ "exemplos_nomes": [
+  "Fresh Banana(1-4)\\aug_0_IMG_20251104_131910090_HDR_AE~2.jpg",
+  "Fresh Banana(1-4)\\aug_100_IMG_20251104_131910090_HDR_AE~2.jpg",
+  "Fresh Banana(1-4)\\aug_101_IMG_20251119_201217560_HDR.jpg",
+  "Fresh Banana(1-4)\\aug_102_IMG_20251102_081029133_AE.jpg",
+  "Fresh Banana(1-4)\\aug_103_IMG_20251102_075754032_HDR_AE.jpg",
+  "Fresh Banana(1-4)\\aug_104_IMG_20251102_075643318_HDR_AE.jpg",
+  "Fresh Banana(1-4)\\aug_105_IMG_20251119_201452252_HDR.jpg",
+  "Fresh Banana(1-4)\\aug_106_IMG_20251104_131828715_HDR_AE.jpg",
+  "Fresh Banana(1-4)\\aug_107_IMG_20251103_192521600_HDR.jpg",
+  "Fresh Banana(1-4)\\aug_108_IMG_20251102_075800601_HDR_AE.jpg",
+  "Fresh Banana(1-4)\\aug_109_Banana (17).jpeg",
+  "Fresh Banana(1-4)\\aug_10_Banana (9).jpeg",
+  "Fresh Banana(1-4)\\aug_110_IMG_20260120_095546193_HDR_AE.jpg",
+  "Fresh Banana(1-4)\\aug_111_IMG_20251119_201533248_HDR.jpg",
+  "Fresh Banana(1-4)\\aug_112_IMG_20251104_131834863_HDR_AE.jpg"
+ ],
+ "dhash_limiar_hamming": 6,
+ "grupos_quase_duplicatas": 1899,
+ "imagens_em_grupos": 13208,
+ "maiores_grupos": [
+  [
+   "Fresh Banana(1-4)\\aug_107_IMG_20251103_192521600_HDR.jpg",
+   "Fresh Banana(1-4)\\aug_150_IMG_20251119_201314202_HDR.jpg",
+   "Fresh Banana(1-4)\\aug_220_IMG_20251120_203536076_HDR.jpg",
+   "Fresh Banana(1-4)\\aug_231_IMG_20251103_192521600_HDR.jpg",
+   "Fresh Banana(1-4)\\aug_281_IMG_20251103_192035277_HDR.jpg",
+   "Fresh Banana(1-4)\\aug_291_IMG_20251120_203536076_HDR.jpg",
+   "Fresh Banana(1-4)\\aug_295_IMG_20251120_203351620_HDR.jpg",
+   "Fresh Banana(1-4)\\aug_308_IMG_20251103_192228908_HDR.jpg",
+   "... +5253"
+  ],
+  [
+   "Fresh Bittermelon(1-3)\\aug_103_IMG_20260114_010528.jpg",
+   "Fresh Bittermelon(1-3)\\aug_115_IMG_20260114_010528.jpg",
+   "Fresh Bittermelon(1-3)\\aug_123_IMG_20260120_004842.jpg",
+   "Fresh Bittermelon(1-3)\\aug_134_IMG_20260114_010553.jpg",
+   "Fresh Bittermelon(1-3)\\aug_135_IMG_20260114_010532.jpg",
+   "Fresh Bittermelon(1-3)\\aug_13_IMG_20260120_004826.jpg",
+   "Fresh Bittermelon(1-3)\\aug_168_IMG_20260114_010528.jpg",
+   "Fresh Bittermelon(1-3)\\aug_174_IMG_20260114_010532.jpg",
+   "... +365"
+  ],
+  [
+   "Fresh Cucumber(1-6)\\aug_114_IMG_20260204_152112.jpg",
+   "Fresh Cucumber(1-6)\\aug_118_IMG_20260204_152112_1.jpg",
+   "Fresh Cucumber(1-6)\\aug_119_IMG_20260204_152133.jpg",
+   "Fresh Cucumber(1-6)\\aug_139_IMG_20260204_152131.jpg",
+   "Fresh Cucumber(1-6)\\aug_147_IMG_20260204_152132.jpg",
+   "Fresh Cucumber(1-6)\\aug_150_IMG_20260204_151932_1.jpg",
+   "Fresh Cucumber(1-6)\\aug_153_IMG_20260204_152132.jpg",
+   "Fresh Cucumber(1-6)\\aug_172_IMG_20260204_152131.jpg",
+   "... +106"
+  ],
+  [
+   "Rotten Cucumber(12-20)\\aug_117_IMG_20251123_012402.jpg",
+   "Rotten Cucumber(12-20)\\aug_122_IMG_20251123_012402.jpg",
+   "Rotten Cucumber(12-20)\\aug_147_IMG_20251124_021837.jpg",
+   "Rotten Cucumber(12-20)\\aug_16_IMG_20251124_021837.jpg",
+   "Rotten Cucumber(12-20)\\aug_186_IMG_20251123_012406.jpg",
+   "Rotten Cucumber(12-20)\\aug_19_IMG_20251123_012406.jpg",
+   "Rotten Cucumber(12-20)\\aug_220_IMG_20251123_012406.jpg",
+   "Rotten Cucumber(12-20)\\aug_223_IMG_20251124_021837.jpg",
+   "... +33"
+  ],
+  [
+   "Rotten Cucumber(12-20)\\aug_0_IMG_20251121_080621.jpg",
+   "Rotten Cucumber(12-20)\\aug_106_IMG_20251121_080624.jpg",
+   "Rotten Cucumber(12-20)\\aug_119_IMG_20251121_080624.jpg",
+   "Rotten Cucumber(12-20)\\aug_128_IMG_20251121_080621.jpg",
+   "Rotten Cucumber(12-20)\\aug_129_IMG_20251121_080628.jpg",
+   "Rotten Cucumber(12-20)\\aug_13_IMG_20251121_080628.jpg",
+   "Rotten Cucumber(12-20)\\aug_148_IMG_20251121_080621.jpg",
+   "Rotten Cucumber(12-20)\\aug_14_IMG_20251121_080628.jpg",
+   "... +26"
+  ],
+  [
+   "Rotten Cucumber(12-20)\\aug_109_IMG_20251124_021805.jpg",
+   "Rotten Cucumber(12-20)\\aug_112_IMG_20251124_021805.jpg",
+   "Rotten Cucumber(12-20)\\aug_143_IMG_20251124_021805.jpg",
+   "Rotten Cucumber(12-20)\\aug_155_IMG_20251124_021829.jpg",
+   "Rotten Cucumber(12-20)\\aug_160_IMG_20251124_021805.jpg",
+   "Rotten Cucumber(12-20)\\aug_170_IMG_20251124_021805.jpg",
+   "Rotten Cucumber(12-20)\\aug_178_IMG_20251124_021805.jpg",
+   "Rotten Cucumber(12-20)\\aug_191_IMG_20251124_021829.jpg",
+   "... +25"
+  ],
+  [
+   "Fresh Papaya(1-4)\\aug_192_IMG_20251124_022555.jpg",
+   "Fresh Papaya(1-4)\\aug_429_IMG_20251124_022555.jpg",
+   "Fresh Papaya(1-4)\\aug_82_IMG_20251124_022555.jpg",
+   "Fresh Papaya(1-4)\\IMG_20251124_022555.jpg",
+   "Semi Fresh Papaya(4-7)\\aug_102_IMG_20251124_022549.jpg",
+   "Semi Fresh Papaya(4-7)\\aug_116_IMG_20251124_022545.jpg",
+   "Semi Fresh Papaya(4-7)\\aug_136_IMG_20251124_022549.jpg",
+   "Semi Fresh Papaya(4-7)\\aug_182_IMG_20251124_022545.jpg",
+   "... +23"
+  ],
+  [
+   "Rotten Cucumber(12-20)\\aug_103_IMG_20260202_032555.jpg",
+   "Rotten Cucumber(12-20)\\aug_114_IMG_20260202_032554.jpg",
+   "Rotten Cucumber(12-20)\\aug_174_IMG_20260202_032555.jpg",
+   "Rotten Cucumber(12-20)\\aug_198_IMG_20260202_032555.jpg",
+   "Rotten Cucumber(12-20)\\aug_209_IMG_20260202_032554.jpg",
+   "Rotten Cucumber(12-20)\\aug_222_IMG_20260202_032554.jpg",
+   "Rotten Cucumber(12-20)\\aug_252_IMG_20260202_032554.jpg",
+   "Rotten Cucumber(12-20)\\aug_253_IMG_20260202_032555.jpg",
+   "... +23"
+  ],
+  [
+   "Semi Fresh Bittermelon ( 3-5)\\aug_181_IMG_20251123_013349.jpg",
+   "Semi Fresh Bittermelon ( 3-5)\\aug_19_IMG_20251123_013127.jpg",
+   "Semi Fresh Bittermelon ( 3-5)\\aug_211_IMG_20251123_013349.jpg",
+   "Semi Fresh Bittermelon ( 3-5)\\aug_226_IMG_20251123_013127.jpg",
+   "Semi Fresh Bittermelon ( 3-5)\\aug_229_IMG_20251123_013314.jpg",
+   "Semi Fresh Bittermelon ( 3-5)\\aug_231_IMG_20251123_013333.jpg",
+   "Semi Fresh Bittermelon ( 3-5)\\aug_243_IMG_20251123_013333.jpg",
+   "Semi Fresh Bittermelon ( 3-5)\\aug_245_IMG_20251123_013127.jpg",
+   "... +21"
+  ],
+  [
+   "Semi fresh Pineapple (15-25)\\aug_0_IMG_20251125_210618785_HDR.jpg",
+   "Semi fresh Pineapple (15-25)\\aug_112_IMG_20251125_210618785_HDR.jpg",
+   "Semi fresh Pineapple (15-25)\\aug_123_IMG_20251123_223147800_HDR.jpg",
+   "Semi fresh Pineapple (15-25)\\aug_157_IMG_20251124_193058913_HDR.jpg",
+   "Semi fresh Pineapple (15-25)\\aug_182_IMG_20251122_211216823_HDR.jpg",
+   "Semi fresh Pineapple (15-25)\\aug_22_IMG_20251124_193030751_HDR.jpg",
+   "Semi fresh Pineapple (15-25)\\aug_235_IMG_20251125_210618785_HDR.jpg",
+   "Semi fresh Pineapple (15-25)\\aug_238_IMG_20251124_193030751_HDR.jpg",
+   "... +19"
+  ]
+ ],
+ "grupos_que_cruzam_pastas": 61,
+ "exemplos_cruzados": [
+  [
+   "Fresh Banana(1-4)\\aug_107_IMG_20251103_192521600_HDR.jpg",
+   "Fresh Banana(1-4)\\aug_150_IMG_20251119_201314202_HDR.jpg",
+   "Fresh Banana(1-4)\\aug_220_IMG_20251120_203536076_HDR.jpg",
+   "Fresh Banana(1-4)\\aug_231_IMG_20251103_192521600_HDR.jpg",
+   "Fresh Banana(1-4)\\aug_281_IMG_20251103_192035277_HDR.jpg",
+   "Fresh Banana(1-4)\\aug_291_IMG_20251120_203536076_HDR.jpg"
+  ],
+  [
+   "Fresh Bittermelon(1-3)\\aug_103_IMG_20260114_010528.jpg",
+   "Fresh Bittermelon(1-3)\\aug_115_IMG_20260114_010528.jpg",
+   "Fresh Bittermelon(1-3)\\aug_123_IMG_20260120_004842.jpg",
+   "Fresh Bittermelon(1-3)\\aug_134_IMG_20260114_010553.jpg",
+   "Fresh Bittermelon(1-3)\\aug_135_IMG_20260114_010532.jpg",
+   "Fresh Bittermelon(1-3)\\aug_13_IMG_20260120_004826.jpg"
+  ],
+  [
+   "Fresh Cucumber(1-6)\\aug_114_IMG_20260204_152112.jpg",
+   "Fresh Cucumber(1-6)\\aug_118_IMG_20260204_152112_1.jpg",
+   "Fresh Cucumber(1-6)\\aug_119_IMG_20260204_152133.jpg",
+   "Fresh Cucumber(1-6)\\aug_139_IMG_20260204_152131.jpg",
+   "Fresh Cucumber(1-6)\\aug_147_IMG_20260204_152132.jpg",
+   "Fresh Cucumber(1-6)\\aug_150_IMG_20260204_151932_1.jpg"
+  ],
+  [
+   "Fresh Papaya(1-4)\\aug_192_IMG_20251124_022555.jpg",
+   "Fresh Papaya(1-4)\\aug_429_IMG_20251124_022555.jpg",
+   "Fresh Papaya(1-4)\\aug_82_IMG_20251124_022555.jpg",
+   "Fresh Papaya(1-4)\\IMG_20251124_022555.jpg",
+   "Semi Fresh Papaya(4-7)\\aug_102_IMG_20251124_022549.jpg",
+   "Semi Fresh Papaya(4-7)\\aug_116_IMG_20251124_022545.jpg"
+  ],
+  [
+   "Rotten Cucumber(12-20)\\aug_103_IMG_20260202_032555.jpg",
+   "Rotten Cucumber(12-20)\\aug_114_IMG_20260202_032554.jpg",
+   "Rotten Cucumber(12-20)\\aug_174_IMG_20260202_032555.jpg",
+   "Rotten Cucumber(12-20)\\aug_198_IMG_20260202_032555.jpg",
+   "Rotten Cucumber(12-20)\\aug_209_IMG_20260202_032554.jpg",
+   "Rotten Cucumber(12-20)\\aug_222_IMG_20260202_032554.jpg"
+  ],
+  [
+   "Fresh eggplant(1-4)\\aug_119_IMG_20251121_143753748_HDR_AE.jpg",
+   "Fresh eggplant(1-4)\\aug_181_IMG_20251121_143753748_HDR_AE.jpg",
+   "Fresh eggplant(1-4)\\aug_341_IMG_20251121_143753748_HDR_AE.jpg",
+   "Fresh eggplant(1-4)\\IMG_20251121_143753748_HDR_AE.jpg",
+   "Rotten Tomato(24-35)\\aug_121_IMG_20260128_095454679_HDR_AE.jpg",
+   "Rotten Tomato(24-35)\\aug_169_IMG_20260128_095506452_HDR_AE.jpg"
+  ],
+  [
+   "Fresh Papaya(1-4)\\aug_127_IMG_20260114_004508.jpg",
+   "Fresh Papaya(1-4)\\aug_232_IMG_20260114_004508.jpg",
+   "Fresh Papaya(1-4)\\aug_316_IMG_20260114_004508.jpg",
+   "Fresh Papaya(1-4)\\aug_363_IMG_20260114_004508.jpg",
+   "Fresh Papaya(1-4)\\aug_57_IMG_20260114_004508.jpg",
+   "Fresh Papaya(1-4)\\aug_9_IMG_20260114_004508.jpg"
+  ],
+  [
+   "Fresh Papaya(1-4)\\aug_132_IMG_20260116_030536.jpg",
+   "Fresh Papaya(1-4)\\aug_228_IMG_20260116_030536.jpg",
+   "Fresh Papaya(1-4)\\aug_244_IMG_20260116_030536.jpg",
+   "Fresh Papaya(1-4)\\aug_286_IMG_20260116_030536.jpg",
+   "Fresh Papaya(1-4)\\aug_376_IMG_20260116_030536.jpg",
+   "Fresh Papaya(1-4)\\aug_393_IMG_20260116_030536.jpg"
+  ],
+  [
+   "Rotten Papaya(7-12)\\aug_237_IMG_20251202_021532.jpg",
+   "Rotten Papaya(7-12)\\aug_245_IMG_20251202_021532.jpg",
+   "Rotten Papaya(7-12)\\IMG_20251202_021532.jpg",
+   "Semi Fresh Papaya(4-7)\\aug_117_IMG_20251124_022533.jpg",
+   "Semi Fresh Papaya(4-7)\\aug_120_IMG_20251124_022533.jpg",
+   "Semi Fresh Papaya(4-7)\\aug_123_IMG_20251124_022533.jpg"
+  ],
+  [
+   "Fresh Papaya(1-4)\\aug_14_IMG_20260116_030556.jpg",
+   "Fresh Papaya(1-4)\\aug_468_IMG_20260116_030556.jpg",
+   "Fresh Papaya(1-4)\\IMG_20260116_030556.jpg",
+   "Rotten Papaya(7-12)\\aug_13_IMG_20251202_021446.jpg",
+   "Rotten Papaya(7-12)\\IMG_20251202_021446.jpg",
+   "Semi Fresh Papaya(4-7)\\aug_195_IMG_20260214_025253.jpg"
+  ]
+ ]
+}

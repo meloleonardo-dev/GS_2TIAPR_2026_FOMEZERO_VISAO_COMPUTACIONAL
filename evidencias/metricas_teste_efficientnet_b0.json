@@ -1,0 +1,814 @@
+{
+ "modelo": "efficientnet_b0",
+ "pesos": "efficientnet_b0.pt",
+ "conjunto": "teste (só originais)",
+ "calibracao": {
+  "conjunto": "validação (só originais)",
+  "n": 782,
+  "regra": "menor τ com acurácia nas aceitas >= 95% e cobertura >= 70%; senão maior acurácia com cobertura >= 70%",
+  "tau": 0.5,
+  "ponto_escolhido": {
+   "tau": 0.5,
+   "cobertura": 0.991,
+   "acuracia_aceitas": 0.951
+  },
+  "curva": [
+   {
+    "tau": 0.34,
+    "cobertura": 1.0,
+    "acuracia_aceitas": 0.945
+   },
+   {
+    "tau": 0.35,
+    "cobertura": 1.0,
+    "acuracia_aceitas": 0.945
+   },
+   {
+    "tau": 0.36,
+    "cobertura": 1.0,
+    "acuracia_aceitas": 0.945
+   },
+   {
+    "tau": 0.37,
+    "cobertura": 1.0,
+    "acuracia_aceitas": 0.945
+   },
+   {
+    "tau": 0.38,
+    "cobertura": 1.0,
+    "acuracia_aceitas": 0.945
+   },
+   {
+    "tau": 0.39,
+    "cobertura": 1.0,
+    "acuracia_aceitas": 0.945
+   },
+   {
+    "tau": 0.4,
+    "cobertura": 1.0,
+    "acuracia_aceitas": 0.945
+   },
+   {
+    "tau": 0.41,
+    "cobertura": 1.0,
+    "acuracia_aceitas": 0.945
+   },
+   {
+    "tau": 0.42,
+    "cobertura": 1.0,
+    "acuracia_aceitas": 0.945
+   },
+   {
+    "tau": 0.43,
+    "cobertura": 1.0,
+    "acuracia_aceitas": 0.945
+   },
+   {
+    "tau": 0.44,
+    "cobertura": 1.0,
+    "acuracia_aceitas": 0.945
+   },
+   {
+    "tau": 0.45,
+    "cobertura": 1.0,
+    "acuracia_aceitas": 0.945
+   },
+   {
+    "tau": 0.46,
+    "cobertura": 0.9987,
+    "acuracia_aceitas": 0.9462
+   },
+   {
+    "tau": 0.47,
+    "cobertura": 0.9974,
+    "acuracia_aceitas": 0.9474
+   },
+   {
+    "tau": 0.48,
+    "cobertura": 0.9962,
+    "acuracia_aceitas": 0.9487
+   },
+   {
+    "tau": 0.49,
+    "cobertura": 0.9923,
+    "acuracia_aceitas": 0.9497
+   },
+   {
+    "tau": 0.5,
+    "cobertura": 0.991,
+    "acuracia_aceitas": 0.951
+   },
+   {
+    "tau": 0.51,
+    "cobertura": 0.991,
+    "acuracia_aceitas": 0.951
+   },
+   {
+    "tau": 0.52,
+    "cobertura": 0.991,
+    "acuracia_aceitas": 0.951
+   },
+   {
+    "tau": 0.53,
+    "cobertura": 0.9898,
+    "acuracia_aceitas": 0.9509
+   },
+   {
+    "tau": 0.54,
+    "cobertura": 0.9872,
+    "acuracia_aceitas": 0.9508
+   },
+   {
+    "tau": 0.55,
+    "cobertura": 0.9834,
+    "acuracia_aceitas": 0.9545
+   },
+   {
+    "tau": 0.56,
+    "cobertura": 0.9808,
+    "acuracia_aceitas": 0.9557
+   },
+   {
+    "tau": 0.57,
+    "cobertura": 0.9795,
+    "acuracia_aceitas": 0.9556
+   },
+   {
+    "tau": 0.58,
+    "cobertura": 0.9783,
+    "acuracia_aceitas": 0.9569
+   },
+   {
+    "tau": 0.59,
+    "cobertura": 0.977,
+    "acuracia_aceitas": 0.9581
+   },
+   {
+    "tau": 0.6,
+    "cobertura": 0.9731,
+    "acuracia_aceitas": 0.958
+   },
+   {
+    "tau": 0.61,
+    "cobertura": 0.9706,
+    "acuracia_aceitas": 0.9578
+   },
+   {
+    "tau": 0.62,
+    "cobertura": 0.9668,
+    "acuracia_aceitas": 0.959
+   },
+   {
+    "tau": 0.63,
+    "cobertura": 0.9642,
+    "acuracia_aceitas": 0.9602
+   },
+   {
+    "tau": 0.64,
+    "cobertura": 0.9591,
+    "acuracia_aceitas": 0.9627
+   },
+   {
+    "tau": 0.65,
+    "cobertura": 0.9591,
+    "acuracia_aceitas": 0.9627
+   },
+   {
+    "tau": 0.66,
+    "cobertura": 0.9552,
+    "acuracia_aceitas": 0.9625
+   },
+   {
+    "tau": 0.67,
+    "cobertura": 0.9527,
+    "acuracia_aceitas": 0.9638
+   },
+   {
+    "tau": 0.68,
+    "cobertura": 0.9488,
+    "acuracia_aceitas": 0.965
+   },
+   {
+    "tau": 0.69,
+    "cobertura": 0.9488,
+    "acuracia_aceitas": 0.965
+   },
+   {
+    "tau": 0.7,
+    "cobertura": 0.9463,
+    "acuracia_aceitas": 0.9649
+   },
+   {
+    "tau": 0.71,
+    "cobertura": 0.9412,
+    "acuracia_aceitas": 0.966
+   },
+   {
+    "tau": 0.72,
+    "cobertura": 0.9386,
+    "acuracia_aceitas": 0.9659
+   },
+   {
+    "tau": 0.73,
+    "cobertura": 0.9373,
+    "acuracia_aceitas": 0.9659
+   },
+   {
+    "tau": 0.74,
+    "cobertura": 0.9322,
+    "acuracia_aceitas": 0.9684
+   },
+   {
+    "tau": 0.75,
+    "cobertura": 0.9297,
+    "acuracia_aceitas": 0.9684
+   },
+   {
+    "tau": 0.76,
+    "cobertura": 0.9258,
+    "acuracia_aceitas": 0.9696
+   },
+   {
+    "tau": 0.77,
+    "cobertura": 0.9246,
+    "acuracia_aceitas": 0.971
+   },
+   {
+    "tau": 0.78,
+    "cobertura": 0.9194,
+    "acuracia_aceitas": 0.9736
+   },
+   {
+    "tau": 0.79,
+    "cobertura": 0.9143,
+    "acuracia_aceitas": 0.9734
+   },
+   {
+    "tau": 0.8,
+    "cobertura": 0.9092,
+    "acuracia_aceitas": 0.9733
+   },
+   {
+    "tau": 0.81,
+    "cobertura": 0.9054,
+    "acuracia_aceitas": 0.9732
+   },
+   {
+    "tau": 0.82,
+    "cobertura": 0.9003,
+    "acuracia_aceitas": 0.973
+   },
+   {
+    "tau": 0.83,
+    "cobertura": 0.8964,
+    "acuracia_aceitas": 0.9729
+   },
+   {
+    "tau": 0.84,
+    "cobertura": 0.8875,
+    "acuracia_aceitas": 0.9769
+   },
+   {
+    "tau": 0.85,
+    "cobertura": 0.8798,
+    "acuracia_aceitas": 0.9782
+   },
+   {
+    "tau": 0.86,
+    "cobertura": 0.8696,
+    "acuracia_aceitas": 0.9779
+   },
+   {
+    "tau": 0.87,
+    "cobertura": 0.8568,
+    "acuracia_aceitas": 0.9806
+   },
+   {
+    "tau": 0.88,
+    "cobertura": 0.844,
+    "acuracia_aceitas": 0.9803
+   },
+   {
+    "tau": 0.89,
+    "cobertura": 0.8184,
+    "acuracia_aceitas": 0.9828
+   },
+   {
+    "tau": 0.9,
+    "cobertura": 0.789,
+    "acuracia_aceitas": 0.9838
+   },
+   {
+    "tau": 0.91,
+    "cobertura": 0.7455,
+    "acuracia_aceitas": 0.9828
+   },
+   {
+    "tau": 0.92,
+    "cobertura": 0.6893,
+    "acuracia_aceitas": 0.9852
+   },
+   {
+    "tau": 0.93,
+    "cobertura": 0.6113,
+    "acuracia_aceitas": 0.9895
+   },
+   {
+    "tau": 0.94,
+    "cobertura": 0.4923,
+    "acuracia_aceitas": 0.9922
+   },
+   {
+    "tau": 0.95,
+    "cobertura": 0.3504,
+    "acuracia_aceitas": 0.9927
+   },
+   {
+    "tau": 0.96,
+    "cobertura": 0.1957,
+    "acuracia_aceitas": 0.9869
+   },
+   {
+    "tau": 0.97,
+    "cobertura": 0.0818,
+    "acuracia_aceitas": 0.9844
+   },
+   {
+    "tau": 0.98,
+    "cobertura": 0.0217,
+    "acuracia_aceitas": 1.0
+   },
+   {
+    "tau": 0.99,
+    "cobertura": 0.0,
+    "acuracia_aceitas": NaN
+   }
+  ]
+ },
+ "condicao": {
+  "por_classe": {
+   "Fresh": {
+    "precisao": 0.9309,
+    "recall": 0.966,
+    "f1": 0.9481,
+    "n": 265
+   },
+   "Semi-Fresh": {
+    "precisao": 0.9149,
+    "recall": 0.8921,
+    "f1": 0.9034,
+    "n": 241
+   },
+   "Rotten": {
+    "precisao": 0.9746,
+    "recall": 0.9607,
+    "f1": 0.9676,
+    "n": 280
+   }
+  },
+  "macro": {
+   "precisao": 0.9401,
+   "recall": 0.9396,
+   "f1": 0.9397
+  },
+  "acuracia": 0.9415,
+  "n": 786,
+  "matriz_confusao": [
+   [
+    256,
+    9,
+    0
+   ],
+   [
+    19,
+    215,
+    7
+   ],
+   [
+    0,
+    11,
+    269
+   ]
+  ],
+  "matriz_linhas_verdadeiro_colunas_previsto": [
+   "Fresh",
+   "Semi-Fresh",
+   "Rotten"
+  ]
+ },
+ "produto": {
+  "por_classe": {
+   "banana": {
+    "precisao": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "n": 102
+   },
+   "melão-de-são-caetano": {
+    "precisao": 1.0,
+    "recall": 0.987,
+    "f1": 0.9935,
+    "n": 77
+   },
+   "pepino": {
+    "precisao": 0.9487,
+    "recall": 1.0,
+    "f1": 0.9737,
+    "n": 37
+   },
+   "berinjela": {
+    "precisao": 0.9901,
+    "recall": 1.0,
+    "f1": 0.995,
+    "n": 100
+   },
+   "laranja": {
+    "precisao": 0.9912,
+    "recall": 1.0,
+    "f1": 0.9956,
+    "n": 112
+   },
+   "mamão": {
+    "precisao": 1.0,
+    "recall": 0.9727,
+    "f1": 0.9862,
+    "n": 110
+   },
+   "abacaxi": {
+    "precisao": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "n": 81
+   },
+   "tomate": {
+    "precisao": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "n": 167
+   }
+  },
+  "macro": {
+   "precisao": 0.9912,
+   "recall": 0.995,
+   "f1": 0.993
+  },
+  "acuracia": 0.9949,
+  "n": 786,
+  "matriz_confusao": [
+   [
+    102,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    76,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    37,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    100,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    112,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    2,
+    0,
+    1,
+    107,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    81,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    167
+   ]
+  ],
+  "matriz_linhas_verdadeiro_colunas_previsto": [
+   "banana",
+   "melão-de-são-caetano",
+   "pepino",
+   "berinjela",
+   "laranja",
+   "mamão",
+   "abacaxi",
+   "tomate"
+  ]
+ },
+ "acuracia_24_classes": 0.9389,
+ "com_limiar": {
+  "tau": 0.5,
+  "cobertura": 0.9898,
+  "n_aceitas": 778,
+  "inconclusivos_por_classe_real": {
+   "Fresh": 0,
+   "Semi-Fresh": 7,
+   "Rotten": 1
+  },
+  "metricas_nas_aceitas": {
+   "por_classe": {
+    "Fresh": {
+     "precisao": 0.9343,
+     "recall": 0.966,
+     "f1": 0.9499,
+     "n": 265
+    },
+    "Semi-Fresh": {
+     "precisao": 0.9134,
+     "recall": 0.9017,
+     "f1": 0.9075,
+     "n": 234
+    },
+    "Rotten": {
+     "precisao": 0.9817,
+     "recall": 0.9606,
+     "f1": 0.971,
+     "n": 279
+    }
+   },
+   "macro": {
+    "precisao": 0.9431,
+    "recall": 0.9428,
+    "f1": 0.9428
+   },
+   "acuracia": 0.9447,
+   "n": 778,
+   "matriz_confusao": [
+    [
+     256,
+     9,
+     0
+    ],
+    [
+     18,
+     211,
+     5
+    ],
+    [
+     0,
+     11,
+     268
+    ]
+   ],
+   "matriz_linhas_verdadeiro_colunas_previsto": [
+    "Fresh",
+    "Semi-Fresh",
+    "Rotten"
+   ]
+  }
+ },
+ "rotten_previsto_como_fresh": {
+  "total": 0,
+  "entre_aceitas": 0
+ },
+ "acuracia_condicao_por_produto": {
+  "banana": {
+   "n": 102,
+   "acuracia_condicao": 0.9804
+  },
+  "melão-de-são-caetano": {
+   "n": 77,
+   "acuracia_condicao": 0.9091
+  },
+  "pepino": {
+   "n": 37,
+   "acuracia_condicao": 1.0
+  },
+  "berinjela": {
+   "n": 100,
+   "acuracia_condicao": 0.86
+  },
+  "laranja": {
+   "n": 112,
+   "acuracia_condicao": 1.0
+  },
+  "mamão": {
+   "n": 110,
+   "acuracia_condicao": 0.8727
+  },
+  "abacaxi": {
+   "n": 81,
+   "acuracia_condicao": 1.0
+  },
+  "tomate": {
+   "n": 167,
+   "acuracia_condicao": 0.9461
+  }
+ },
+ "galeria": [
+  {
+   "arquivo": "Fresh eggplant(1-4)/IMG_20251118_164757182_HDR.jpg",
+   "acerto": true,
+   "real": "Fresh",
+   "previsto": "Fresh",
+   "confianca": 0.9709,
+   "produto_real": "berinjela",
+   "produto_previsto": "berinjela"
+  },
+  {
+   "arquivo": "Rotten banana(7-13)/IMG_20251112_112821824_HDR_AE.jpg",
+   "acerto": true,
+   "real": "Rotten",
+   "previsto": "Rotten",
+   "confianca": 0.9196,
+   "produto_real": "banana",
+   "produto_previsto": "banana"
+  },
+  {
+   "arquivo": "Rotten Papaya(7-12)/IMG_20260209_011130_1.jpg",
+   "acerto": true,
+   "real": "Rotten",
+   "previsto": "Rotten",
+   "confianca": 0.929,
+   "produto_real": "mamão",
+   "produto_previsto": "mamão"
+  },
+  {
+   "arquivo": "Fresh pineapple(1-15)/IMG-20251125-WA0033.jpg",
+   "acerto": true,
+   "real": "Fresh",
+   "previsto": "Fresh",
+   "confianca": 0.9416,
+   "produto_real": "abacaxi",
+   "produto_previsto": "abacaxi"
+  },
+  {
+   "arquivo": "Fresh Bittermelon(1-3)/IMG_20251117_155613.jpg",
+   "acerto": true,
+   "real": "Fresh",
+   "previsto": "Fresh",
+   "confianca": 0.9435,
+   "produto_real": "melão-de-são-caetano",
+   "produto_previsto": "melão-de-são-caetano"
+  },
+  {
+   "arquivo": "Semi fresh Pineapple (15-25)/IMG-20251205-WA0031.jpg",
+   "acerto": true,
+   "real": "Semi-Fresh",
+   "previsto": "Semi-Fresh",
+   "confianca": 0.925,
+   "produto_real": "abacaxi",
+   "produto_previsto": "abacaxi"
+  },
+  {
+   "arquivo": "Semi fresh Tomato(10-24)/IMG_20251112_113613775_HDR_AE.jpg",
+   "acerto": false,
+   "real": "Semi-Fresh",
+   "previsto": "Fresh",
+   "confianca": 0.9846,
+   "produto_real": "tomate",
+   "produto_previsto": "tomate"
+  },
+  {
+   "arquivo": "Semi fresh Tomato(10-24)/IMG_20251117_140531246_HDR_AE.jpg",
+   "acerto": false,
+   "real": "Semi-Fresh",
+   "previsto": "Fresh",
+   "confianca": 0.9771,
+   "produto_real": "tomate",
+   "produto_previsto": "tomate"
+  },
+  {
+   "arquivo": "Semi fresh Tomato(10-24)/IMG_20251112_113605802_HDR_AE.jpg",
+   "acerto": false,
+   "real": "Semi-Fresh",
+   "previsto": "Fresh",
+   "confianca": 0.9736,
+   "produto_real": "tomate",
+   "produto_previsto": "tomate"
+  },
+  {
+   "arquivo": "Fresh eggplant(1-4)/IMG_20251120_202305211_HDR.jpg",
+   "acerto": false,
+   "real": "Fresh",
+   "previsto": "Semi-Fresh",
+   "confianca": 0.9692,
+   "produto_real": "berinjela",
+   "produto_previsto": "berinjela"
+  },
+  {
+   "arquivo": "Semi Fresh Papaya(4-7)/IMG_20251124_021917.jpg",
+   "acerto": false,
+   "real": "Semi-Fresh",
+   "previsto": "Fresh",
+   "confianca": 0.963,
+   "produto_real": "mamão",
+   "produto_previsto": "mamão"
+  },
+  {
+   "arquivo": "Semi Fresh Papaya(4-7)/IMG_20251124_022533.jpg",
+   "acerto": false,
+   "real": "Semi-Fresh",
+   "previsto": "Fresh",
+   "confianca": 0.9397,
+   "produto_real": "mamão",
+   "produto_previsto": "mamão"
+  },
+  {
+   "arquivo": "Rotten eggplant(8-15)/IMG_20251130_180949028_HDR.jpg",
+   "acerto": false,
+   "real": "Rotten",
+   "previsto": "Semi-Fresh",
+   "confianca": 0.937,
+   "produto_real": "berinjela",
+   "produto_previsto": "berinjela"
+  },
+  {
+   "arquivo": "Rotten eggplant(8-15)/IMG_20251130_180956091_HDR.jpg",
+   "acerto": false,
+   "real": "Rotten",
+   "previsto": "Semi-Fresh",
+   "confianca": 0.9219,
+   "produto_real": "berinjela",
+   "produto_previsto": "berinjela"
+  },
+  {
+   "arquivo": "Semi Fresh Bittermelon ( 3-5)/IMG_20260116_025837.jpg",
+   "acerto": false,
+   "real": "Semi-Fresh",
+   "previsto": "Fresh",
+   "confianca": 0.9085,
+   "produto_real": "melão-de-são-caetano",
+   "produto_previsto": "melão-de-são-caetano"
+  },
+  {
+   "arquivo": "Semi fresh Tomato(10-24)/IMG_20260121_230546421_HDR.jpg",
+   "acerto": false,
+   "real": "Semi-Fresh",
+   "previsto": "Fresh",
+   "confianca": 0.8924,
+   "produto_real": "tomate",
+   "produto_previsto": "tomate"
+  },
+  {
+   "arquivo": "Semi Fresh Papaya(4-7)/IMG_20251124_022538.jpg",
+   "acerto": false,
+   "real": "Semi-Fresh",
+   "previsto": "Fresh",
+   "confianca": 0.8919,
+   "produto_real": "mamão",
+   "produto_previsto": "mamão"
+  },
+  {
+   "arquivo": "Semi Fresh Papaya(4-7)/IMG_20251031_164008.jpg",
+   "acerto": false,
+   "real": "Semi-Fresh",
+   "previsto": "Fresh",
+   "confianca": 0.8918,
+   "produto_real": "mamão",
+   "produto_previsto": "mamão"
+  }
+ ]
+}

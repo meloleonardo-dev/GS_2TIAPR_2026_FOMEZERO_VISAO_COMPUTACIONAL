@@ -1,0 +1,273 @@
+{
+ "modelo": "efficientnet_b0",
+ "nota": "refeito só o vídeo/sequência (rótulos revisados, nitidez); latências em desempenho_<modelo>.json",
+ "hardware": {
+  "cpu": "13th Gen Intel(R) Core(TM) i5-13420H",
+  "cpu_nucleos_logicos": 12,
+  "ram_gb": 15.7,
+  "gpu": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+  "gpu_memoria_gb": 6.0,
+  "driver_nvidia": "621.01",
+  "so": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.5",
+  "torch": "2.14.1+cu130",
+  "torchvision": "0.29.1+cu130",
+  "cuda": "13.0",
+  "opencv": "5.0.0",
+  "observacao": "notebook em tomada; outros programas abertos podem variar os tempos"
+ },
+ "sequencia": {
+  "n_quadros": 40,
+  "quadros_medidos": 37,
+  "dispositivo": "cuda",
+  "ms_por_quadro_ponta_a_ponta": 46.85,
+  "fps_ponta_a_ponta": 21.3,
+  "video": "bancada_sequencia_efficientnet_b0.mp4",
+  "video_fps_exibicao": 1,
+  "acertos_condicao": 36,
+  "inconclusivos": 0,
+  "quadros": [
+   {
+    "arquivo": "Fresh Papaya(1-4)/IMG_20251027_171225.jpg",
+    "real": "Fresh",
+    "sugestao": "sem sinais visuais de deterioração",
+    "confianca": 0.9105
+   },
+   {
+    "arquivo": "Semi_Fresh eggplant(4-8)/IMG_20251127_192724546_HDR.jpg",
+    "real": "Semi-Fresh",
+    "sugestao": "sem sinais visuais de deterioração",
+    "confianca": 0.5483
+   },
+   {
+    "arquivo": "Semi_Fresh eggplant(4-8)/IMG_20251127_192718854_HDR.jpg",
+    "real": "Semi-Fresh",
+    "sugestao": "sinais visuais leves — priorizar uso rápido e avaliar pessoalmente",
+    "confianca": 0.9736
+   },
+   {
+    "arquivo": "Semi fresh Orange(9-20)/IMG_20251120_202820700_HDR.jpg",
+    "real": "Semi-Fresh",
+    "sugestao": "sinais visuais leves — priorizar uso rápido e avaliar pessoalmente",
+    "confianca": 0.9568
+   },
+   {
+    "arquivo": "Semi Fresh Bittermelon ( 3-5)/IMG_20260116_025858.jpg",
+    "real": "Semi-Fresh",
+    "sugestao": "sinais visuais leves — priorizar uso rápido e avaliar pessoalmente",
+    "confianca": 0.8248
+   },
+   {
+    "arquivo": "Semi fresh Orange(9-20)/IMG-20251127-WA0048.jpg",
+    "real": "Semi-Fresh",
+    "sugestao": "sinais visuais leves — priorizar uso rápido e avaliar pessoalmente",
+    "confianca": 0.9117
+   },
+   {
+    "arquivo": "Semi_Fresh eggplant(4-8)/IMG_20251125_212221501_HDR.jpg",
+    "real": "Semi-Fresh",
+    "sugestao": "sinais visuais leves — priorizar uso rápido e avaliar pessoalmente",
+    "confianca": 0.9337
+   },
+   {
+    "arquivo": "Fresh eggplant(1-4)/IMG_20251120_202305211_HDR.jpg",
+    "real": "Fresh",
+    "sugestao": "sinais visuais leves — priorizar uso rápido e avaliar pessoalmente",
+    "confianca": 0.9691
+   },
+   {
+    "arquivo": "Fresh Banana(1-4)/IMG_20251102_075610660_HDR_AE.jpg",
+    "real": "Fresh",
+    "sugestao": "sem sinais visuais de deterioração",
+    "confianca": 0.9428
+   },
+   {
+    "arquivo": "Rotten Bittermelon(5-8)/IMG_20251124_022245.jpg",
+    "real": "Rotten",
+    "sugestao": "sinais visuais de deterioração — sugestão: compostagem",
+    "confianca": 0.9736
+   },
+   {
+    "arquivo": "Fresh Tomato(1-10)/IMG_20251126_192457519_HDR.jpg",
+    "real": "Fresh",
+    "sugestao": "sem sinais visuais de deterioração",
+    "confianca": 0.9457
+   },
+   {
+    "arquivo": "Semi fresh Pineapple (15-25)/IMG-20251205-WA0047.jpg",
+    "real": "Semi-Fresh",
+    "sugestao": "sinais visuais leves — priorizar uso rápido e avaliar pessoalmente",
+    "confianca": 0.8396
+   },
+   {
+    "arquivo": "Rotten banana(7-13)/IMG_20251130_175537692_HDR.jpg",
+    "real": "Rotten",
+    "sugestao": "sinais visuais de deterioração — sugestão: compostagem",
+    "confianca": 0.9344
+   },
+   {
+    "arquivo": "Semi fresh Orange(9-20)/IMG_20251117_140742836_HDR_AE.jpg",
+    "real": "Semi-Fresh",
+    "sugestao": "sinais visuais leves — priorizar uso rápido e avaliar pessoalmente",
+    "confianca": 0.9353
+   },
+   {
+    "arquivo": "Semi fresh Tomato(10-24)/IMG_20251123_222248182_HDR.jpg",
+    "real": "Semi-Fresh",
+    "sugestao": "sinais visuais leves — priorizar uso rápido e avaliar pessoalmente",
+    "confianca": 0.8377
+   },
+   {
+    "arquivo": "Semi fresh Orange(9-20)/IMG_20251120_202815148_HDR.jpg",
+    "real": "Semi-Fresh",
+    "sugestao": "sinais visuais leves — priorizar uso rápido e avaliar pessoalmente",
+    "confianca": 0.9622
+   },
+   {
+    "arquivo": "Rotten Papaya(7-12)/IMG_20260209_011130_1.jpg",
+    "real": "Rotten",
+    "sugestao": "sinais visuais de deterioração — sugestão: compostagem",
+    "confianca": 0.929
+   },
+   {
+    "arquivo": "Semi fresh Orange(9-20)/IMG_20251120_202825683_HDR.jpg",
+    "real": "Semi-Fresh",
+    "sugestao": "sinais visuais leves — priorizar uso rápido e avaliar pessoalmente",
+    "confianca": 0.9525
+   },
+   {
+    "arquivo": "Fresh eggplant(1-4)/IMG_20251118_164710329_HDR_AE.jpg",
+    "real": "Fresh",
+    "sugestao": "sem sinais visuais de deterioração",
+    "confianca": 0.9433
+   },
+   {
+    "arquivo": "Semi Fresh Bittermelon ( 3-5)/IMG_20260116_025834.jpg",
+    "real": "Semi-Fresh",
+    "sugestao": "sem sinais visuais de deterioração",
+    "confianca": 0.7796
+   },
+   {
+    "arquivo": "Fresh eggplant(1-4)/IMG_20251120_202316254_HDR.jpg",
+    "real": "Fresh",
+    "sugestao": "sem sinais visuais de deterioração",
+    "confianca": 0.7972
+   },
+   {
+    "arquivo": "Fresh eggplant(1-4)/IMG_20251123_221857811_HDR.jpg",
+    "real": "Fresh",
+    "sugestao": "sem sinais visuais de deterioração",
+    "confianca": 0.971
+   },
+   {
+    "arquivo": "Rotten Papaya(7-12)/IMG_20260123_013656_1.jpg",
+    "real": "Rotten",
+    "sugestao": "sinais visuais de deterioração — sugestão: compostagem",
+    "confianca": 0.9653
+   },
+   {
+    "arquivo": "Rotten Papaya(7-12)/IMG_20260123_013633.jpg",
+    "real": "Rotten",
+    "sugestao": "sinais visuais leves — priorizar uso rápido e avaliar pessoalmente",
+    "confianca": 0.5718
+   },
+   {
+    "arquivo": "Fresh pineapple(1-15)/IMG_20251105_103433804_HDR_AE.jpg",
+    "real": "Fresh",
+    "sugestao": "sem sinais visuais de deterioração",
+    "confianca": 0.9542
+   },
+   {
+    "arquivo": "Semi fresh Orange(9-20)/IMG_20251120_202851099_HDR.jpg",
+    "real": "Semi-Fresh",
+    "sugestao": "sinais visuais leves — priorizar uso rápido e avaliar pessoalmente",
+    "confianca": 0.9573
+   },
+   {
+    "arquivo": "Semi fresh Tomato(10-24)/IMG_20251120_204613048_HDR.jpg",
+    "real": "Semi-Fresh",
+    "sugestao": "sinais visuais leves — priorizar uso rápido e avaliar pessoalmente",
+    "confianca": 0.8927
+   },
+   {
+    "arquivo": "Rotten Papaya(7-12)/IMG_20260123_013610.jpg",
+    "real": "Rotten",
+    "sugestao": "sinais visuais de deterioração — sugestão: compostagem",
+    "confianca": 0.9425
+   },
+   {
+    "arquivo": "Rotten Pineapple(25-35)/IMG-20260130-WA0121.jpg",
+    "real": "Rotten",
+    "sugestao": "sinais visuais de deterioração — sugestão: compostagem",
+    "confianca": 0.956
+   },
+   {
+    "arquivo": "Rotten Pineapple(25-35)/IMG_20251126_194140940_HDR.jpg",
+    "real": "Rotten",
+    "sugestao": "sinais visuais de deterioração — sugestão: compostagem",
+    "confianca": 0.9307
+   },
+   {
+    "arquivo": "Rotten banana(7-13)/IMG_20251112_112857395_HDR_AE.jpg",
+    "real": "Rotten",
+    "sugestao": "sinais visuais de deterioração — sugestão: compostagem",
+    "confianca": 0.9148
+   },
+   {
+    "arquivo": "Rotten Papaya(7-12)/IMG_20260209_011110.jpg",
+    "real": "Rotten",
+    "sugestao": "sinais visuais de deterioração — sugestão: compostagem",
+    "confianca": 0.9476
+   },
+   {
+    "arquivo": "Rotten Tomato(24-35)/IMG_20260128_095500550_HDR_AE.jpg",
+    "real": "Rotten",
+    "sugestao": "sinais visuais de deterioração — sugestão: compostagem",
+    "confianca": 0.9382
+   },
+   {
+    "arquivo": "Semi fresh Pineapple (15-25)/IMG_20251119_202510337_HDR.jpg",
+    "real": "Semi-Fresh",
+    "sugestao": "sinais visuais leves — priorizar uso rápido e avaliar pessoalmente",
+    "confianca": 0.9448
+   },
+   {
+    "arquivo": "Fresh pineapple(1-15)/IMG-20251125-WA0008.jpg",
+    "real": "Fresh",
+    "sugestao": "sem sinais visuais de deterioração",
+    "confianca": 0.939
+   },
+   {
+    "arquivo": "Rotten Tomato(24-35)/IMG_20251130_180653087_HDR.jpg",
+    "real": "Rotten",
+    "sugestao": "sinais visuais de deterioração — sugestão: compostagem",
+    "confianca": 0.9604
+   },
+   {
+    "arquivo": "Semi Fresh Papaya(4-7)/IMG_20251124_021901.jpg",
+    "real": "Semi-Fresh",
+    "sugestao": "sinais visuais leves — priorizar uso rápido e avaliar pessoalmente",
+    "confianca": 0.9535
+   },
+   {
+    "arquivo": "Rotten Papaya(7-12)/IMG_20260209_011142.jpg",
+    "real": "Rotten",
+    "sugestao": "sinais visuais de deterioração — sugestão: compostagem",
+    "confianca": 0.9293
+   },
+   {
+    "arquivo": "Fresh Bittermelon(1-3)/IMG_20251118_161038.jpg",
+    "real": "Fresh",
+    "sugestao": "sem sinais visuais de deterioração",
+    "confianca": 0.9491
+   },
+   {
+    "arquivo": "Fresh Orange(1-9)/IMG_20251109_112310280_HDR_AE.jpg",
+    "real": "Fresh",
+    "sugestao": "sem sinais visuais de deterioração",
+    "confianca": 0.9469
+   }
+  ],
+  "salvaguarda_nitidez": true
+ }
+}

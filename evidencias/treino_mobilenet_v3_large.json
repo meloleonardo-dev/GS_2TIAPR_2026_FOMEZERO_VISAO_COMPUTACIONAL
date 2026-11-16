@@ -1,0 +1,104 @@
+{
+ "modelo": "mobilenet_v3_large",
+ "classes": [
+  "banana|Fresh",
+  "banana|Semi-Fresh",
+  "banana|Rotten",
+  "bittermelon|Fresh",
+  "bittermelon|Semi-Fresh",
+  "bittermelon|Rotten",
+  "cucumber|Fresh",
+  "cucumber|Semi-Fresh",
+  "cucumber|Rotten",
+  "eggplant|Fresh",
+  "eggplant|Semi-Fresh",
+  "eggplant|Rotten",
+  "orange|Fresh",
+  "orange|Semi-Fresh",
+  "orange|Rotten",
+  "papaya|Fresh",
+  "papaya|Semi-Fresh",
+  "papaya|Rotten",
+  "pineapple|Fresh",
+  "pineapple|Semi-Fresh",
+  "pineapple|Rotten",
+  "tomato|Fresh",
+  "tomato|Semi-Fresh",
+  "tomato|Rotten"
+ ],
+ "tamanho": 224,
+ "media": [
+  0.485,
+  0.456,
+  0.406
+ ],
+ "desvio": [
+  0.229,
+  0.224,
+  0.225
+ ],
+ "n_treino": 9788,
+ "n_validacao": 782,
+ "epocas_max": 10,
+ "lote": 32,
+ "lr": 0.0003,
+ "criterio": "F1 macro da condição na validação",
+ "melhor_f1_val": 0.935,
+ "melhor_epoca": 3,
+ "tempo_total_s": 273.6,
+ "dispositivo": "cuda",
+ "gpu": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+ "torch": "2.14.1+cu130",
+ "historico": [
+  {
+   "epoca": 1,
+   "perda_treino": 1.0089,
+   "perda_val": 0.3723,
+   "f1_macro_condicao_val": 0.9188,
+   "acuracia_24_val": 0.9143,
+   "segundos": 110.1,
+   "salvo": true
+  },
+  {
+   "epoca": 2,
+   "perda_treino": 0.7346,
+   "perda_val": 0.4498,
+   "f1_macro_condicao_val": 0.918,
+   "acuracia_24_val": 0.9118,
+   "segundos": 35.9
+  },
+  {
+   "epoca": 3,
+   "perda_treino": 0.6858,
+   "perda_val": 0.3205,
+   "f1_macro_condicao_val": 0.935,
+   "acuracia_24_val": 0.9348,
+   "segundos": 31.8,
+   "salvo": true
+  },
+  {
+   "epoca": 4,
+   "perda_treino": 0.6656,
+   "perda_val": 0.3626,
+   "f1_macro_condicao_val": 0.9228,
+   "acuracia_24_val": 0.9258,
+   "segundos": 32.0
+  },
+  {
+   "epoca": 5,
+   "perda_treino": 0.6528,
+   "perda_val": 0.3763,
+   "f1_macro_condicao_val": 0.9253,
+   "acuracia_24_val": 0.9233,
+   "segundos": 31.7
+  },
+  {
+   "epoca": 6,
+   "perda_treino": 0.6425,
+   "perda_val": 0.3022,
+   "f1_macro_condicao_val": 0.9318,
+   "acuracia_24_val": 0.9309,
+   "segundos": 31.8
+  }
+ ]
+}
